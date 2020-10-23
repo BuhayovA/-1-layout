@@ -1,0 +1,223 @@
+@import "fonts.css";
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 58px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 28px;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding-top: 113px;
+}
+
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1170px;
+  /* позиционирование по центру */
+  margin: 0 auto;
+}
+
+.header {
+  background: url("../img/header.jpg") no-repeat center top / cover;
+  padding-top: 57px;
+  color: #fff;
+  padding-bottom: 22px;
+}
+
+header a {
+  color: white;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  text-transform: uppercase;
+  text-emphasis: none;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+.menu li {
+  margin-right: 40px;
+}
+
+.tel {
+  font-size: 17px;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu li a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.tel {
+  margin-left: auto;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.main {
+  color: white;
+  margin-top: 50px;
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main2 {
+  color: white;
+  display: flex;
+}
+
+.buy {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 17px 47px;
+  border: 1px solid aqua;
+  width: 238px;
+  margin-right: 20px;
+}
+
+.buy:hover {
+  background: aqua;
+  color: black;
+  box-shadow: 0 0 10px aqua, 0 0 40px aqua, 0 0 80px tomato;
+  transition: all ease 0.5s;
+}
+
+.buyORlogin {
+  margin-right: 20px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.login {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 17px 47px;
+  border: 1px solid tomato;
+  width: 238px;
+}
+
+.login:hover {
+  background: tomato;
+  color: white;
+  border: 1px solid tomato;
+  box-shadow: 0 0 10px tomato, 0 0 40px tomato, 0 0 80px white;
+  transition: all ease 0.5s;
+}
+
+.big {
+  font-size: 50px;
+  margin-bottom: 19px;
+  letter-spacing: 0.02em;
+  margin-top: 40px;
+}
+
+.sectionMain {
+  font-size: 50px;
+  margin-bottom: 19px;
+  margin-top: -9px;
+  letter-spacing: 0.02em;
+}
+
+.whoWe {
+  display: block;
+  font-size: 16px;
+  font-family: "Noto Sans";
+}
+
+.gallery {
+  margin-top: 67px;
+  justify-content: space-between;
+  transition: all 0.5s ease;
+}
+
+.gallery:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  transform: scale(1.02);
+}
+
+.wM {
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.back {
+  text-transform: none;
+  background: none;
+  margin-right: 40px;
+  font-family: "Montserrat";
+}
+
+.back:hover {
+  border-bottom: 1px solid white;
+}
+
+/* .follow {
+  margin-left: 800px;
+  margin-top: 80px;
+} */
+
+.follow {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  margin-top: 40px;
+}
